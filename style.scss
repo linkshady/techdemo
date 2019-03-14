@@ -1,0 +1,120 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: rgb(148, 128, 225);
+$margin-inside-containers: auto;
+@import 'colors';
+@import 'functions';
+
+
+.background {
+  font: 100% $font-stack;
+  background-color: color(background-body);
+  opacity: 0.99;
+  height: 100%;
+}
+
+.cuponContainer {
+  margin-left: 14% !important;
+}
+
+.bonus{
+  background: color(background-deposit);
+  box-shadow: 0px 3px 0px 0px #715EBB;
+  border-radius: 5.19px;
+  z-index: 1;
+  margin-right:1%;
+  margin-top:1%;
+}
+
+
+
+.bonus:before{
+   content:url(tick.png); 
+    position: absolute;
+    z-index: -1;
+    top: 1px;
+    left: 90%;
+    width: 10%;
+    height: 99%;
+    content: "";
+    background: #E9F2DF;
+    border-radius: 0px 5.19px 5.19px 0px;
+      background-image: url('tick.svg');
+  background-position: 49% 40px;
+  background-repeat: no-repeat;
+}
+
+
+.deposit{
+  background: color(background-deposit);
+  box-shadow: 0px 3px 0px 0px #715EBB;
+  border-radius: 5.19px;
+  z-index: 1;
+  margin-right:1%;
+  margin-top:1%;
+}
+
+
+
+.deposit:before{
+   content:url(tick.png); 
+    position: absolute;
+    z-index: -1;
+    top: 1px;
+    left: 90%;
+    width: 10%;
+    height: 99%;
+    content: "";
+    /* background-color: red; */
+    background: #E9F2DF;
+    border-radius: 0px 5.19px 5.19px 0px;
+      background-image: url('clock.png');
+  background-position: 49% 40px;
+  background-repeat: no-repeat;
+}
+
+
+.bingoButton{
+  background-image: linear-gradient(-180deg, #FF6BCA 0%, #FF78CF 42%, #FF00A8 100%);
+  box-shadow: 0px 1px 1px 1px #AC0C75;
+  border-radius: 2.59px;
+  margin:auto;
+  margin-bottom: 2%;
+
+  
+  //font of button
+  font-family: TodaySHOP-Bold;
+  font-size: 19px;
+  color: color(background-deposit);
+  letter-spacing: 0.21px;
+  line-height: 19.5px;
+}
+
+.depositButton{
+  background-image: linear-gradient(-180deg, #86BA2B 0%, #2A740D 100%);
+  box-shadow: 0px 1px 1px 1px #1C4F06;
+  border-radius: 2.59px;
+  margin:auto;
+  margin-bottom: 2%;
+
+  //font of button
+  font-family: TodaySHOP-Bold;
+  font-size: 19px;
+  color: color(background-deposit);
+  letter-spacing: 0.21px;
+  line-height: 19.5px;
+}
+
+.cuponText{
+  text-align: center;
+  font-size: xx-large;
+  width:90%;
+}
+
+.titleText{
+  font-family: TodaySHOP-Bold;
+font-size: 24px;
+color: color(background-deposit);
+letter-spacing: 0.35px;
+line-height: 24px;
+text-shadow: 0px 1px 1px rgba(0,0,0,0.50);
+}

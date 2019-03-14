@@ -1,0 +1,23 @@
+{
+  "Bonus": [
+    {
+      "button": "Play Bingo",
+      "title": "£10 FREE BINGO BONUS TO USE NOW"
+    },
+    {
+      "button": "Play Slots",
+      "title": "50 FREE SPINS TO USE ON GEMIX NOW"
+    }
+  ],
+  "DepositOffer":[
+      {
+        "title": "1ST DEPOSIT OFFER 300% BINGO BONUS +100 FREE SPINS",
+        "button": "Deposit To Claim"
+      },
+      {
+        "title": "      1ST DEPOSIT OFFER 100% SLOTS BONUS",
+        "button": "Deposit To Claim"
+      }
+
+    ]
+}
